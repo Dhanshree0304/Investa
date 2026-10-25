@@ -1,5 +1,9 @@
 # Investa — Full-Stack Stock Trading Platform
 
+> **Live Demo:** [https://zenvest-i92g.vercel.app/](https://zenvest-i92g.vercel.app/)
+>
+> **GitHub Repository:** [Dhanshree0304/Investa](https://github.com/Dhanshree0304/Investa)
+
 Investa is a full-stack stock trading platform inspired by modern brokerage applications. It provides a user interface for authentication, viewing stock holdings and positions, tracking stocks, and managing orders through an integrated frontend, dashboard, and backend.
 
 ## 🚀 Project Overview
@@ -14,6 +18,7 @@ Investa is a full-stack stock trading platform inspired by modern brokerage appl
 - **Testing:** Jest and React Testing Library
 - **CI/CD:** GitHub Actions
 - **Deployment:** Vercel and Render
+- **Live Demo:** [Open Investa](https://zenvest-i92g.vercel.app/)
 
 ## ✨ Features
 
@@ -24,10 +29,39 @@ Investa is a full-stack stock trading platform inspired by modern brokerage appl
 - **Order Management:** Submit orders through backend APIs.
 - **Watchlist:** Track stocks through the dashboard.
 - **Portfolio Analytics:** View portfolio summaries and graphical representations.
+- **Informational Pages:** Home, About, Pricing, and Support Portal pages.
 - **REST API Integration:** Communicate between the frontend, dashboard, and backend.
 - **Automated Testing:** Run tests to detect issues before deployment.
 - **Cloud Deployment:** Deploy application components separately.
 - **CI/CD Automation:** Automate code checks and builds using GitHub Actions.
+
+## 🖼️ Screenshots
+
+**Live website:** [https://zenvest-i92g.vercel.app/](https://zenvest-i92g.vercel.app/)
+
+### Website
+
+**Home Page**
+
+![Investa home page](docs/screenshots/website-home.png)
+
+| Signup | Login |
+|---|---|
+| ![Investa signup page](docs/screenshots/signup.png) | ![Investa login page](docs/screenshots/login.png) |
+
+| About | Pricing |
+|---|---|
+| ![Investa about page](docs/screenshots/about.png) | ![Investa pricing page](docs/screenshots/pricing.png) |
+
+**Support Portal**
+
+![Investa support portal](docs/screenshots/support.png)
+
+### Dashboard
+
+Shows the watchlist (NIFTY 50, SENSEX, INFY, TCS, RELIANCE and more), equity margin summary, and holdings overview after login.
+
+![Investa dashboard](docs/screenshots/dashboard.png)
 
 ## 🛠️ Tech Stack
 
@@ -64,6 +98,16 @@ Investa/
 │   ├── public/
 │   ├── src/
 │   └── package.json
+│
+├── docs/
+│   └── screenshots/
+│       ├── website-home.png
+│       ├── signup.png
+│       ├── login.png
+│       ├── about.png
+│       ├── pricing.png
+│       ├── support.png
+│       └── dashboard.png
 │
 ├── .github/
 │   └── workflows/
@@ -335,6 +379,8 @@ Do not assume that a successful CI run automatically deploys the application. Ve
 6. Add the required environment variables.
 7. Deploy the backend.
 8. Check the deployment logs and verify the API.
+
+Live frontend demo: [https://zenvest-i92g.vercel.app/](https://zenvest-i92g.vercel.app/)
 
 Previously discussed backend URL:
 
